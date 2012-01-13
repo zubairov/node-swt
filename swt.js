@@ -62,25 +62,25 @@ Object.defineProperty(Swt, 'claimValue', {
   get: function (claimName) {
     return this.claims[claimName];
   }
-}),
+});
 
 Object.defineProperty(Swt, 'rawToken', {
   get: function () {
     return this.rawToken;
   }
-}),
+});
 
 Object.defineProperty(Swt, 'audience', {
   get: function () {
     return this.audience;
   }
-}),
+});
 
 Object.defineProperty(Swt, 'issuer', {
   get: function () {
     return this.issuer;
   }
-}),
+});
 
 Object.defineProperty(Swt, 'expiresOn', {
   get: function () {

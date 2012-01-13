@@ -3,36 +3,6 @@ var crypto = require('crypto');
 var Swt = module.exports = function Swt (rawToken) {
   this.rawToken = rawToken;
   this.parse();
-
-  Object.defineProperty(Swt, 'claimValue', {
-    get: function (claimName) {
-      return this.claims[claimName];
-    }
-  }),
-
-  Object.defineProperty(Swt, 'rawToken', {
-    get: function () {
-      return this.rawToken;
-    }
-  }),
-
-  Object.defineProperty(Swt, 'audience', {
-    get: function () {
-      return this.audience;
-    }
-  }),
-
-  Object.defineProperty(Swt, 'issuer', {
-    get: function () {
-      return this.issuer;
-    }
-  }),
-
-  Object.defineProperty(Swt, 'expiresOn', {
-    get: function () {
-      return this.expiresOn;
-    }
-  });
 };
 
 Swt.prototype = {
@@ -87,3 +57,33 @@ Swt.prototype = {
     return (hash === decodeURIComponent(chunks[1]));
   }
 };
+
+Object.defineProperty(Swt, 'claimValue', {
+  get: function (claimName) {
+    return this.claims[claimName];
+  }
+}),
+
+Object.defineProperty(Swt, 'rawToken', {
+  get: function () {
+    return this.rawToken;
+  }
+}),
+
+Object.defineProperty(Swt, 'audience', {
+  get: function () {
+    return this.audience;
+  }
+}),
+
+Object.defineProperty(Swt, 'issuer', {
+  get: function () {
+    return this.issuer;
+  }
+}),
+
+Object.defineProperty(Swt, 'expiresOn', {
+  get: function () {
+    return this.expiresOn;
+  }
+});

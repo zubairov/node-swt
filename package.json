@@ -1,14 +1,17 @@
 {
-  "name": "node-swt",
+  "name": "swt",
   "description": "A library to validate and parse swt tokens",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Dario Renzulli <dario.renzulli@gmail.com>",
   "contributors": [ 
     { "name": "Juan Pablo Garcia Dalolla", "email": "juanpablogarcia@gmail.com" }
   ],
   "dependencies": {},
   "keywords": ["swt", "acs", "security", "azure"],
-  "repository": "git://github.com/darrenzully/swt.git",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/darrenzully/swt.git"
+  },
   "main": "./swt.js",
   "engines": { "node": ">= 0.4.1" }
 }

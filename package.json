@@ -16,7 +16,7 @@
   "keywords": ["swt", "acs", "security", "azure"],
   "repository": {
     "type": "git",
-    "url": "git://github.com/darrenzully/swt.git"
+    "url": "git://github.com/darrenzully/node-swt.git"
   },
   "main": "index.js",
   "engines": { "node": ">= 0.4.1" }

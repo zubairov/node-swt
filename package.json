@@ -1,7 +1,7 @@
 {
-  "name": "swt",
+  "name": "node-swt",
   "description": "A library to validate and parse swt tokens",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "author": "Dario Renzulli <dario.renzulli@gmail.com>",
   "contributors": [ 
     { "name": "Juan Pablo Garcia Dalolla", "email": "juanpablogarcia@gmail.com" }

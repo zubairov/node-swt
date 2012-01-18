@@ -2,9 +2,10 @@
   "name": "node-swt",
   "description": "A library to validate and parse swt tokens",
   "version": "0.1.1",
-  "author": "Dario Renzulli <dario.renzulli@gmail.com>",
+  "author": "Dario Renzulli (Southworks) <dario.renzulli@southworks.net>",
   "contributors": [ 
-    { "name": "Juan Pablo Garcia Dalolla", "email": "juanpablogarcia@gmail.com" }
+    { "name": "Juan Pablo Garcia Dalolla (Southworks)", "email": "juanpablo.garcia@southworks.net" },
+    { "name": "Matias Woloski (Southworks)", "email": "matias.woloski@southworks.net" }
   ],
   "dependencies": {},
   "devDependencies": {

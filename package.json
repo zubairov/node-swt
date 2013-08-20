@@ -20,5 +20,11 @@
     "url": "git://github.com/darrenzully/node-swt.git"
   },
   "main": "index.js",
-  "engines": { "node": ">= 0.4.1" }
+  "engines": { "node": ">= 0.4.1" },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/zubairov/node-swt/adding-license/LICENSE"
+    }
+  ]
 }
